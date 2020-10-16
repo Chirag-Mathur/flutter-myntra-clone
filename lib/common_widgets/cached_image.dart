@@ -32,7 +32,7 @@ class CachedImage extends StatelessWidget {
         ),
         child: Image.asset(
           'assets/images/blank_image.png',
-          fit: BoxFit.fill,
+          fit: BoxFit.cover,
         ),
       ),
       errorWidget: (context, url, error) => Container(

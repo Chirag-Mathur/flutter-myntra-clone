@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_myntra_clone/screens/home.dart';
+import 'package:flutter_myntra_clone/screens/home_screen.dart';
 import 'package:flutter_myntra_clone/screens/login/login.dart';
 import 'package:flutter_myntra_clone/screens/login/otp.dart';
 
@@ -20,7 +21,7 @@ class App extends StatelessWidget {
       routes: {
         Login.routeName: (ctx) => Login(),
         Otp.routeName: (ctx) => Otp(),
-        Home.routeName: (ctx) => Home(),
+        HomeScreen.routeName: (ctx) => HomeScreen(),
       },
     );
   }

@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_myntra_clone/common_widgets/back_button.dart' as bb;
 import 'package:flutter_myntra_clone/common_widgets/cached_image.dart';
-import 'package:flutter_myntra_clone/screens/home.dart';
+import 'package:flutter_myntra_clone/screens/home_screen.dart';
 import 'package:flutter_myntra_clone/utils/asset_constants.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
@@ -34,7 +34,7 @@ class _OtpState extends State<Otp> {
       setState(() {
         hasError = false;
       });
-      Navigator.of(context).pushReplacementNamed(Home.routeName);
+      Navigator.of(context).pushReplacementNamed(HomeScreen.routeName);
     }
   }
 

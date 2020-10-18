@@ -3,7 +3,7 @@
 [Myntra](https://play.google.com/store/apps/details?id=com.myntra.android) clone in Flutter. Show some :heart: by :star: repo, if you liked it or you learnt something from it.
 
 ## Screenshots
-### Swiggy
+### MYNTRA
 
 Login               |  OTP                       | Home 1                            |  Home 2 
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:

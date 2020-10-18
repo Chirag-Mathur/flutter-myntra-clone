@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_myntra_clone/screens/home.dart';
 import 'package:flutter_myntra_clone/screens/home_screen.dart';
 import 'package:flutter_myntra_clone/screens/login/login.dart';
 import 'package:flutter_myntra_clone/screens/login/otp.dart';
@@ -12,6 +11,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Myntra',
       theme: ThemeData(
         primaryColor: Colors.pinkAccent,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_myntra_clone/screens/categories/categories.dart';
 import 'package:flutter_myntra_clone/screens/home.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -21,23 +22,18 @@ class _HomeScreenState extends State<HomeScreen> {
     final List<Map<String, Object>> _pages = [
       {
         'page': Home(),
-        'title': 'Home',
+      },
+      {
+        'page': Categories(),
       },
       {
         'page': Text(''),
-        'title': 'Explore',
       },
       {
         'page': Text(''),
-        'title': 'Veggies',
       },
       {
         'page': Text(''),
-        'title': 'Cart',
-      },
-      {
-        'page': Text(''),
-        'title': 'My Account',
       }
     ];
 
@@ -51,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
         onTap: _selectTab,
         backgroundColor: Theme.of(context).accentColor,
         unselectedItemColor: Colors.black87,
-        selectedItemColor: Color.fromRGBO(255,63,108, 1),
+        selectedItemColor: Color.fromRGBO(255, 63, 108, 1),
         currentIndex: _selectedPageIndex,
         type: BottomNavigationBarType.fixed,
         items: [

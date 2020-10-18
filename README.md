@@ -1,16 +1,18 @@
 # flutter_myntra_clone
 
-Myntra clone in Flutter
+[Myntra](https://play.google.com/store/apps/details?id=com.myntra.android) clone in Flutter. Show some :heart: by :star: repo, if you liked it or you learnt something from it.
 
-## Getting Started
+## Screenshots
+### Swiggy
 
-This project is a starting point for a Flutter application.
+Login               |  OTP                       | Home 1                            |  Home 2 
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](screenshots/login.png)|![](screenshots/otp.png)|![](screenshots/home_1.png)|![](screenshots/home_2.png)|
 
-A few resources to get you started if this is your first Flutter project:
+Home 3               |  Home 4                       | Categories                            |  Product List 
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](screenshots/home_3.png)|![](screenshots/home_4.png)|![](screenshots/categories.png)|![](screenshots/product_list.png)|
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Product details               |  Product details 2    
+:-------------------------:|:-------------------------:
+![](screenshots/product_details_1.png)|![](screenshots/product_details_2.png)|

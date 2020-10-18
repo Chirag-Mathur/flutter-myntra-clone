@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_myntra_clone/common_widgets/cached_image.dart';
 import 'package:flutter_myntra_clone/data_provider/product_dto.dart';
+import 'package:flutter_myntra_clone/screens/products/product_details.dart';
 
 class Product extends StatefulWidget {
   final ProductDto productDto;
@@ -18,7 +19,7 @@ class _ProductState extends State<Product> {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        // navigate to product details
+        Navigator.of(context).pushNamed(ProductDetails.routeName);
       },
       child: Builder(
         builder: (ctx) => Container(

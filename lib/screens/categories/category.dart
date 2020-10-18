@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_myntra_clone/screens/products/product_list.dart';
 
 class Category extends StatefulWidget {
   final String categoryName;
@@ -79,12 +80,20 @@ class _CategoryState extends State<Category> {
         ),
         if (isExpanded)
           ...widget.subCategories.map((e) {
-            return Padding(
-              padding: EdgeInsets.only(left: 25, top: 15, bottom: 15),
-              child: Text(
-                e,
-                style: TextStyle(
-                  fontSize: 18,
+            return InkWell(
+              onTap: () {
+                Navigator.of(context).pushNamed(ProductList.routeName);
+              },
+              child: Container(
+                width: double.infinity,
+                child: Padding(
+                  padding: EdgeInsets.only(left: 25, top: 15, bottom: 15),
+                  child: Text(
+                    e,
+                    style: TextStyle(
+                      fontSize: 18,
+                    ),
+                  ),
                 ),
               ),
             );
